@@ -1,7 +1,7 @@
 
-function BoardMember(name, homestate, training) {
+function BoardMember(name, homeState, training) {
   this.training = training;
-  this.homestate = homestate;
+  this.homeState = homestate;
   this.name = name;
 
   this.veto = function () {
