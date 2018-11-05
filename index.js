@@ -8,13 +8,13 @@ function BoardMember(name, homeState, training) {
      return "No, I must disagree";
   this.approve = function () {
      return "You can do that!";
-  this.approve = function () {
-     return "You can do that!";   
-  this.veto = function () {
+  this.doCharity = function () {
+     return "You can do that!";
+  this.releasePressStatement = function () {
     return "No, I must disagree";
-  this.approve = function () {
+  this.sayHi = function () {
     return "You can do that!";
-        
+
   }
-  
+
 }
